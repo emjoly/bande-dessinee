@@ -1,0 +1,16 @@
+.AimerCommentaires {
+  display: flex;
+  gap: 10px;
+
+  button {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+
+    &:hover {
+      background: #f0f0f0;
+    }
+  }
+}

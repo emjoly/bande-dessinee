@@ -1,0 +1,85 @@
+.AfficherCommentaire {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.AfficherCommentaire .Delete {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 1px 2px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.AfficherCommentaire .Delete:hover {
+  background-color: #c82333;
+}
+.AfficherCommentaire h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #333;
+}
+.AfficherCommentaire .AjouterCommentaire {
+  margin-bottom: 20px;
+}
+.AfficherCommentaire ul {
+  list-style-type: none;
+  padding: 0;
+}
+.AfficherCommentaire ul li {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.AfficherCommentaire ul li:last-child {
+  margin-bottom: 0;
+}
+.AfficherCommentaire ul li .comment-header {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+.AfficherCommentaire ul li .comment-body {
+  margin-bottom: 10px;
+  color: #555;
+}
+.AfficherCommentaire ul li .AimerCommentaires {
+  display: flex;
+  align-items: center;
+}
+.AfficherCommentaire ul li .AimerCommentaires .buttons {
+  display: flex;
+  gap: 10px;
+}
+.AfficherCommentaire ul li .AimerCommentaires .buttons button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.AfficherCommentaire ul li .AimerCommentaires .buttons button:hover {
+  background-color: #0056b3;
+}
+.AfficherCommentaire ul li .AimerCommentaires .buttons button.active {
+  background-color: #28a745;
+}
+.AfficherCommentaire ul li .AimerCommentaires .buttons button.active:hover {
+  background-color: #218838;
+}
+.AfficherCommentaire ul li .AimerCommentaires .buttons button svg {
+  margin-right: 5px;
+}
+.AfficherCommentaire ul li .AimerCommentaires p {
+  margin-left: 10px;
+  color: #888;
+}

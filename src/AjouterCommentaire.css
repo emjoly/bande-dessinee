@@ -1,0 +1,45 @@
+.AjouterCommentaire {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.AjouterCommentaire form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.AjouterCommentaire form input[type=text] {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: border-color 0.3s;
+}
+.AjouterCommentaire form input[type=text]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+.AjouterCommentaire form .btn-ajout-commentaire {
+  display: flex;
+  align-items: center;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.AjouterCommentaire form .btn-ajout-commentaire:hover {
+  background-color: #0056b3;
+}
+.AjouterCommentaire form .btn-ajout-commentaire:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+.AjouterCommentaire form .btn-ajout-commentaire svg {
+  margin-left: 5px;
+}
